@@ -1,0 +1,124 @@
+	#home{
+		color: gray;
+		width: 100%;
+		height: 54px;
+		background-color: black;
+		border-radius: 10px;
+	}
+	div#header{
+		float: right;
+		margin-right: 130px;
+		margin-top: -57px;
+	}
+	#header a{
+		text-decoration:none;
+		color: white;
+		padding: 16px;
+	}
+	#header ul li{
+		display: inline;
+		padding: 16px;
+	}
+	#header ul li:hover{
+		transition: all 0.70s;
+		padding: 16px;
+		background-color: lightblue;
+		color: black;
+	}
+	div#header2{
+		float: left;
+		margin-left: 130px;
+		margin-top: -57px;
+	}
+	#header2 a{
+		text-decoration: none;
+		color: white;
+		padding: 16px;
+	}
+	#header2 ul li{
+		display: inline;
+		padding: 16px;
+	}
+	#header2 ul li:hover{
+		transition: all 0.70s;
+		padding: 16px;
+		background-color: lightblue;
+		color: black;
+	}
+	div#body{
+		float: left;
+		margin-top: 2px;
+		margin-bottom: 8px;
+		width: 250px;
+		height: 820px;
+		background-color: gray;
+		border-radius: 10px;
+	}
+	div#body2{
+		float: center;
+		margin-left: 380px;
+	}
+	#body2 ul li{
+		display: inline;
+		padding: 20px;
+	}
+	div#body4{
+		margin-top: 5px;
+		margin-left: 505px;
+		width: 700px;
+		height: 300px;
+		background-color: lightgray;
+		border-radius: 10px;
+	}
+	div#con{
+		float: left;
+		margin-left: 50px;
+	}
+	#con a{
+		text-decoration:none;
+		padding: 10px 180px;
+		color: black;
+	}
+	#con ul li{
+		background-color: gray;
+		display: block;
+		padding: 10px;
+	}
+	#con ul li:hover{
+		background-color: lightblue;
+		padding: 10px;
+
+	}
+	.box{
+		margin-left: 20px;
+		margin-top: 6px;
+	}
+	.padding{
+		padding: 20px, 0, 0, 20px;
+
+	}
+	b{
+		margin-left: 30px;
+		display: block;
+		padding: 10px;
+	}
+	.submit{
+		float: left;
+		margin-left: 100px;
+		padding: 7px;
+	}
+
+	@media (max-width: 780px) {
+		div#stefan{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.side {
+			display: none;
+		}
+	}
+	.table{
+		padding: 20px;
+
+	}
